@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+ * Material Design 3 (MD3) Exhaustive Theme for Bootstrap (data-bs-theme)
+ *
+ * This version maps the entire MD3 palette to all relevant Bootstrap CSS variables
+ * to ensure correct styling for component variations (alerts, badges, subtle backgrounds, etc.).
+ */
+
+/* ------------------------------------ */
+/* MD LIGHT THEME (Exhaustive)          */
+/* ------------------------------------ */
+
+[data-bs-theme="md-light"] {
+  /* GLOBAL BODY & BACKGROUND COLORS */
+  --bs-body-bg: rgb(255 248 245);          /* MD3 background (Surface Bright) */
+  --bs-body-bg-rgb: 255, 248, 245;
+  --bs-body-color: rgb(34 26 20);         /* MD3 on-background */
+  --bs-body-color-rgb: 34, 26, 20;
+
+  /* SURFACE & BORDER COLORS */
+  --bs-border-color: rgb(132 116 106);    /* MD3 outline */
+  --bs-border-color-rgb: 132, 116, 106;
+  --bs-tertiary-bg: rgb(243 223 210);     /* MD3 surface-variant (used for cards/off-white) */
+  --bs-tertiary-bg-rgb: 243, 223, 210;
+
+  /* UTILITY COLORS (Light/Dark - for utility classes like .text-light, .bg-dark) */
+  --bs-light: rgb(251 235 225);           /* MD3 surface-container */
+  --bs-light-rgb: 251, 235, 225;
+  --bs-dark: rgb(82 68 59);               /* MD3 on-surface-variant */
+  --bs-dark-rgb: 82, 68, 59;
+
+
+  /* --- PRIMARY COLORS (MD3 Primary) --- */
+  --bs-primary: rgb(137 80 32);
+  --bs-primary-rgb: 137, 80, 32;
+  --bs-primary-text-emphasis: rgb(109 57 10);      /* MD3 on-primary-container */
+  --bs-primary-bg-subtle: rgb(255 220 197);        /* MD3 primary-container */
+  --bs-primary-border-subtle: rgb(214 195 183);    /* MD3 outline-variant */
+
+  /* --- SECONDARY COLORS (MD3 Secondary) --- */
+  --bs-secondary: rgb(117 89 69);
+  --bs-secondary-rgb: 117, 89, 69;
+  --bs-secondary-text-emphasis: rgb(91 65 47);     /* MD3 on-secondary-container */
+  --bs-secondary-bg-subtle: rgb(255 220 197);       /* MD3 secondary-container */
+  --bs-secondary-border-subtle: rgb(214 195 183);   /* MD3 outline-variant */
+
+  /* --- SUCCESS COLORS (MD3 Tertiary) --- */
+  --bs-success: rgb(94 97 53);
+  --bs-success-rgb: 94, 97, 53;
+  --bs-success-text-emphasis: rgb(70 73 32);       /* MD3 on-tertiary-container */
+  --bs-success-bg-subtle: rgb(227 230 175);        /* MD3 tertiary-container */
+  --bs-success-border-subtle: rgb(199 202 149);    /* MD3 tertiary-fixed-dim */
+
+  /* --- DANGER COLORS (MD3 Error) --- */
+  --bs-danger: rgb(186 26 26);
+  --bs-danger-rgb: 186, 26, 26;
+  --bs-danger-text-emphasis: rgb(147 0 10);        /* MD3 on-error-container */
+  --bs-danger-bg-subtle: rgb(255 218 214);         /* MD3 error-container */
+  --bs-danger-border-subtle: rgb(255 180 171);     /* MD3 error dim */
+
+  /* --- INFO COLORS (MD3 Surface Container High - Warm Neutral) --- */
+  --bs-info: rgb(245 229 220);
+  --bs-info-rgb: 245, 229, 220;
+  --bs-info-text-emphasis: rgb(82 68 59);         /* MD3 on-surface-variant */
+  --bs-info-bg-subtle: rgb(251 235 225);           /* MD3 surface-container */
+  --bs-info-border-subtle: rgb(240 223 214);        /* MD3 surface-container-highest */
+
+  /* --- WARNING COLORS (MD3 Surface Container Low - Slightly Lighter Neutral) --- */
+  --bs-warning: rgb(255 241 233);
+  --bs-warning-rgb: 255, 241, 233;
+  --bs-warning-text-emphasis: rgb(34 26 20);       /* MD3 on-background */
+  --bs-warning-bg-subtle: rgb(255 248 245);        /* MD3 background */
+  --bs-warning-border-subtle: rgb(245 229 220);     /* MD3 surface-container-high */
+
+  /* Additional MD3 variables included for completeness/custom components */
+  --md-sys-color-primary: rgb(137 80 32);
+  --md-sys-color-inverse-surface: rgb(56 47 40);
+  --md-sys-color-inverse-on-surface: rgb(254 238 228);
+  --md-sys-color-inverse-primary: rgb(255 183 129);
+}
+
+/* ------------------------------------ */
+/* MD DARK THEME (Exhaustive)           */
+/* ------------------------------------ */
+
+[data-bs-theme="md-dark"] {
+  /* GLOBAL BODY & BACKGROUND COLORS */
+  --bs-body-bg: rgb(25 18 13);            /* MD3 background (Surface Dim) */
+  --bs-body-bg-rgb: 25, 18, 13;
+  --bs-body-color: rgb(240 223 214);      /* MD3 on-background */
+  --bs-body-color-rgb: 240, 223, 214;
+
+  /* SURFACE & BORDER COLORS */
+  --bs-border-color: rgb(159 141 131);    /* MD3 outline */
+  --bs-border-color-rgb: 159, 141, 131;
+  --bs-tertiary-bg: rgb(82 68 59);        /* MD3 surface-variant (used for cards/off-black) */
+  --bs-tertiary-bg-rgb: 82, 68, 59;
+
+  /* UTILITY COLORS (Light/Dark) */
+  --bs-light: rgb(60 51 45);              /* MD3 surface-container-highest */
+  --bs-light-rgb: 60, 51, 45;
+  --bs-dark: rgb(20 13 8);                /* MD3 surface-container-lowest */
+  --bs-dark-rgb: 20, 13, 8;
+
+
+  /* --- PRIMARY COLORS (MD3 Primary) --- */
+  --bs-primary: rgb(255 183 129);
+  --bs-primary-rgb: 255, 183, 129;
+  --bs-primary-text-emphasis: rgb(255 220 197);     /* MD3 on-primary-container */
+  --bs-primary-bg-subtle: rgb(109 57 10);           /* MD3 primary-container */
+  --bs-primary-border-subtle: rgb(159 141 131);     /* MD3 outline */
+
+  /* --- SECONDARY COLORS (MD3 Secondary) --- */
+  --bs-secondary: rgb(228 191 167);
+  --bs-secondary-rgb: 228, 191, 167;
+  --bs-secondary-text-emphasis: rgb(255 220 197);    /* MD3 on-secondary-container */
+  --bs-secondary-bg-subtle: rgb(91 65 47);           /* MD3 secondary-container */
+  --bs-secondary-border-subtle: rgb(159 141 131);    /* MD3 outline */
+
+  /* --- SUCCESS COLORS (MD3 Tertiary) --- */
+  --bs-success: rgb(199 202 149);
+  --bs-success-rgb: 199, 202, 149;
+  --bs-success-text-emphasis: rgb(227 230 175);     /* MD3 on-tertiary-container */
+  --bs-success-bg-subtle: rgb(70 73 32);            /* MD3 tertiary-container */
+  --bs-success-border-subtle: rgb(159 141 131);     /* MD3 outline */
+
+  /* --- DANGER COLORS (MD3 Error) --- */
+  --bs-danger: rgb(255 180 171);
+  --bs-danger-rgb: 255, 180, 171;
+  --bs-danger-text-emphasis: rgb(255 218 214);      /* MD3 on-error-container */
+  --bs-danger-bg-subtle: rgb(147 0 10);             /* MD3 error-container */
+  --bs-danger-border-subtle: rgb(159 141 131);      /* MD3 outline */
+
+  /* --- INFO COLORS (MD3 Surface Container High - Warm Neutral) --- */
+  --bs-info: rgb(49 40 34);
+  --bs-info-rgb: 49, 40, 34;
+  --bs-info-text-emphasis: rgb(240 223 214);        /* MD3 on-background */
+  --bs-info-bg-subtle: rgb(38 30 24);               /* MD3 surface-container */
+  --bs-info-border-subtle: rgb(34 26 20);           /* MD3 surface-container-low */
+
+  /* --- WARNING COLORS (MD3 Surface Container Low - Slightly Darker Neutral) --- */
+  --bs-warning: rgb(34 26 20);
+  --bs-warning-rgb: 34, 26, 20;
+  --bs-warning-text-emphasis: rgb(240 223 214);     /* MD3 on-background */
+  --bs-warning-bg-subtle: rgb(25 18 13);            /* MD3 background */
+  --bs-warning-border-subtle: rgb(38 30 24);        /* MD3 surface-container */
+
+  /* Additional MD3 variables included for completeness/custom components */
+  --md-sys-color-primary: rgb(255 183 129);
+  --md-sys-color-inverse-surface: rgb(240 223 214);
+  --md-sys-color-inverse-on-surface: rgb(56 47 40);
+  --md-sys-color-inverse-primary: rgb(137 80 32);
+}
