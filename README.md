@@ -1,5 +1,5 @@
 # Bookish-Bassoon
-Repo for front end AI Chatbot app
+Repo for front end AI Financial Chatbot app
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
 
